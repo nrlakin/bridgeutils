@@ -1,0 +1,275 @@
+{
+    "createdOn": "2016-08-31T20:45:07.654Z",
+    "deleted": false,
+    "elements": [
+        {
+            "constraints": {
+                "allowMultiple": false,
+                "allowOther": true,
+                "dataType": "string",
+                "enumeration": [
+                    {
+                        "label": "Female",
+                        "type": "SurveyQuestionOption",
+                        "value": "Female"
+                    },
+                    {
+                        "label": "Male",
+                        "type": "SurveyQuestionOption",
+                        "value": "Male"
+                    },
+                    {
+                        "label": "Prefer not to answer",
+                        "type": "SurveyQuestionOption",
+                        "value": "Prefer not to answer"
+                    }
+                ],
+                "rules": [],
+                "type": "MultiValueConstraints"
+            },
+            "fireEvent": false,
+            "guid": "39fcdb57-7d07-415b-9dc6-204b71228206",
+            "identifier": "gender",
+            "prompt": "What is your gender?",
+            "type": "SurveyQuestion",
+            "uiHint": "radiobutton"
+        },
+        {
+            "constraints": {
+                "dataType": "integer",
+                "minValue": 18.0,
+                "rules": [],
+                "step": 1.0,
+                "type": "IntegerConstraints"
+            },
+            "fireEvent": false,
+            "guid": "ba81e127-250a-4439-a67f-821ab6d0102c",
+            "identifier": "age",
+            "prompt": "How old are you?",
+            "type": "SurveyQuestion",
+            "uiHint": "numberfield"
+        },
+        {
+            "constraints": {
+                "dataType": "integer",
+                "maxValue": 99999.0,
+                "minValue": 0.0,
+                "rules": [],
+                "step": 1.0,
+                "type": "IntegerConstraints"
+            },
+            "fireEvent": false,
+            "guid": "78931107-6f32-473a-97c6-9fac26682961",
+            "identifier": "zipcode",
+            "prompt": "What is your zipcode?",
+            "type": "SurveyQuestion",
+            "uiHint": "numberfield"
+        },
+        {
+            "constraints": {
+                "allowMultiple": false,
+                "allowOther": false,
+                "dataType": "string",
+                "enumeration": [
+                    {
+                        "label": "Doctoral Degree",
+                        "type": "SurveyQuestionOption",
+                        "value": "Doctoral Degree"
+                    },
+                    {
+                        "label": "Master's Degree",
+                        "type": "SurveyQuestionOption",
+                        "value": "Master's Degree"
+                    },
+                    {
+                        "label": "Some graduate school",
+                        "type": "SurveyQuestionOption",
+                        "value": "Some graduate school"
+                    },
+                    {
+                        "label": "4-year college degree",
+                        "type": "SurveyQuestionOption",
+                        "value": "4-year college degree"
+                    },
+                    {
+                        "label": "2-year college degree",
+                        "type": "SurveyQuestionOption",
+                        "value": "2-year college degree"
+                    },
+                    {
+                        "label": "Some college",
+                        "type": "SurveyQuestionOption",
+                        "value": "Some college"
+                    },
+                    {
+                        "label": "High School Diploma/GED",
+                        "type": "SurveyQuestionOption",
+                        "value": "High School Diploma/GED"
+                    },
+                    {
+                        "label": "Some high school",
+                        "type": "SurveyQuestionOption",
+                        "value": "Some high school"
+                    }
+                ],
+                "rules": [],
+                "type": "MultiValueConstraints"
+            },
+            "fireEvent": false,
+            "guid": "c17c65f1-762b-4a02-b9e3-3644878bb673",
+            "identifier": "education",
+            "prompt": "What is the highest level of education that you have completed?",
+            "type": "SurveyQuestion",
+            "uiHint": "radiobutton"
+        },
+        {
+            "constraints": {
+                "allowMultiple": false,
+                "allowOther": false,
+                "dataType": "integer",
+                "enumeration": [
+                    {
+                        "label": "<$14,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "1"
+                    },
+                    {
+                        "label": "$15,000-21,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "2"
+                    },
+                    {
+                        "label": "$22,000-43,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "3"
+                    },
+                    {
+                        "label": "$44,000-60,000",
+                        "type": "SurveyQuestionOption",
+                        "value": "4"
+                    },
+                    {
+                        "label": ">$60,000",
+                        "type": "SurveyQuestionOption",
+                        "value": "5"
+                    },
+                    {
+                        "label": "I don't know",
+                        "type": "SurveyQuestionOption",
+                        "value": "6"
+                    }
+                ],
+                "rules": [],
+                "type": "MultiValueConstraints"
+            },
+            "fireEvent": false,
+            "guid": "d172e95f-b3c5-434f-bf02-7d365e219226",
+            "identifier": "workload",
+            "prompt": "Which of the following best describes the total annual income of all members of your household?",
+            "type": "SurveyQuestion",
+            "uiHint": "radiobutton"
+        },
+        {
+            "constraints": {
+                "allowMultiple": false,
+                "allowOther": false,
+                "dataType": "string",
+                "enumeration": [
+                    {
+                        "label": "<$14,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "1"
+                    },
+                    {
+                        "label": "$15,000-21,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "2"
+                    },
+                    {
+                        "label": "$22,000-43,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "3"
+                    },
+                    {
+                        "label": "$44,000-60,000",
+                        "type": "SurveyQuestionOption",
+                        "value": "4"
+                    },
+                    {
+                        "label": ">$60,000",
+                        "type": "SurveyQuestionOption",
+                        "value": "5"
+                    },
+                    {
+                        "label": "I don't know",
+                        "type": "SurveyQuestionOption",
+                        "value": "6"
+                    }
+                ],
+                "rules": [],
+                "type": "MultiValueConstraints"
+            },
+            "fireEvent": false,
+            "guid": "34e4b4e9-09ba-4516-beb5-6e6e415ba4ee",
+            "identifier": "social_support",
+            "prompt": "Which of the following best describes the total annual income of all members of your household?",
+            "type": "SurveyQuestion",
+            "uiHint": "radiobutton"
+        },
+        {
+            "constraints": {
+                "allowMultiple": false,
+                "allowOther": false,
+                "dataType": "string",
+                "enumeration": [
+                    {
+                        "label": "<$14,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "1"
+                    },
+                    {
+                        "label": "$15,000-21,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "2"
+                    },
+                    {
+                        "label": "$22,000-43,999",
+                        "type": "SurveyQuestionOption",
+                        "value": "3"
+                    },
+                    {
+                        "label": "$44,000-60,000",
+                        "type": "SurveyQuestionOption",
+                        "value": "4"
+                    },
+                    {
+                        "label": ">$60,000",
+                        "type": "SurveyQuestionOption",
+                        "value": "5"
+                    },
+                    {
+                        "label": "I don't know",
+                        "type": "SurveyQuestionOption",
+                        "value": "6"
+                    }
+                ],
+                "rules": [],
+                "type": "MultiValueConstraints"
+            },
+            "fireEvent": false,
+            "guid": "1243b451-324d-499b-84cc-e3abd86338ae",
+            "identifier": "parental_monitoring",
+            "prompt": "Describe your parental monitoring growing up?",
+            "type": "SurveyQuestion",
+            "uiHint": "radiobutton"
+        }
+    ],
+    "guid": "3a572b28-ccaf-44a8-a5a1-7d0f38b73859",
+    "identifier": "demographics",
+    "modifiedOn": "2016-08-31T20:45:21.920Z",
+    "name": "Demographics",
+    "published": true,
+    "schemaRevision": 1,
+    "type": "Survey",
+    "version": 2
+}
